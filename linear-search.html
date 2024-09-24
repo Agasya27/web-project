@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linear search</title>
+    <link rel="stylesheet" href="linear-search.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 >Linear Search Algorithm</h1>
+    <ul class="sidemenu">
+        <p id="tosa">types of search and sort algorithms</p>
+        <li><a href="linear-search.html">Overview</a></li>
+        <li><a href="#">Pre-test</a></li>
+        <li><a href="#">Video:Linear Search</a></li>
+        <li><a href="#">Post-test</a></li>
+    </ul> 
+    <div class="search-ALGO-content">
+       
+      
+        <div class="search-ALGO-text">
+          <h3 id="definition">Definition</h3>
+          <p>Linear search is a simple search algorithm used to find an element in a list or array by checking each element one-by-one in a sequential manner.</p>
+      
+          <h3 id="approach">Approach</h3>
+          <ol>
+            <li>Start from the first element and compare it with the target value.</li>
+            <li>If the current element matches the target, return the index or the element.</li>
+            <li>If no match is found after checking all elements, return a failure indication (e.g., -1).</li>
+          </ol>
+      
+          <h3 id="algorithm">Algorithm</h3>
+          <ul>
+            <li><strong>Input</strong>: An array or list of size n and a target value.</li>
+            <li><strong>Output</strong>: Index of the target if found; otherwise, -1.</li>
+          </ul>
+      
+          <h3 id="steps">Steps</h3>
+          <ol>
+            <li>Initialize a loop starting from the first element (index 0).</li>
+            <li>Compare each element with the target value.</li>
+            <li>If the element matches the target, return the current index.</li>
+            <li>If the end of the list is reached and no match is found, return -1.</li>
+          </ol>
+      
+          <h3 id="time-complexity">Time Complexity</h3>
+          <ul>
+            <li><strong>Best case</strong>: O(1) – when the target is at the first position.</li>
+            <li><strong>Worst case</strong>: O(n) – when the target is at the last position or not present at all.</li>
+          </ul>
+      
+          <h3 id="space-complexity">Space Complexity</h3>
+          <p>O(1) – No extra space is used, apart from the input list and a few variables for indexing.</p>
+      
+          <h3 id="usage">Usage</h3>
+          <ul>
+            <li>Works for both unsorted and sorted lists.</li>
+            <li>Common in small or unsorted datasets where a more complex search algorithm might be unnecessary.</li>
+          </ul>
+      
+          <h3 id="advantages">Advantages</h3>
+          <ul>
+            <li>Simple to implement.</li>
+            <li>No need for preprocessing the data (e.g., sorting).</li>
+          </ul>
+      
+          <h3 id="disadvantages">Disadvantages</h3>
+          <ul>
+            <li>Inefficient for large datasets due to its linear time complexity.</li>
+            <li>Not suitable for real-time applications with large data.</li>
+          </ul>
+      
+          <h3 id="example">Example</h3>
+          <p>Given a list [3, 8, 2, 7, 5] and target 7, linear search will start from index 0, check each element until it finds the target at index 3.</p>
+        </div>
+        <div class="search-ALGO-img">
+            <img src="file:///C:/Users/ASUS/OneDrive/Pictures/Saved%20Pictures/linear_search.gif">
+      </div>
+      
+</body>
+</html>

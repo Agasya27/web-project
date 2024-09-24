@@ -1,0 +1,123 @@
+ul.sidemenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 100vh;
+    background-color: #fbf8f8;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    padding-top: 0;
+    margin-top: 0;
+} 
+ul.sidemenu li {
+    margin-bottom: 20px;
+    list-style-type: none;
+} 
+ul.sidemenu a {
+    text-decoration: none;
+    color: #337ab7;
+}
+ul.sidemenu a:hover {
+    color: #23527c;
+} 
+body{
+    background-image: url(file:///C:/Users/ASUS/OneDrive/Pictures/Saved%20Pictures/data%20image.webp);
+    align-items: center;
+    background-size: cover;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    
+    animation: fadeInb1 2s;
+    
+}
+h1{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    color:  blue;
+}
+@keyframes fadeInb1 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  } 
+ 
+  .search-ALGO-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 10px;
+    background-color: #f0caca;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-left: 180px;
+    margin-bottom: 30px;
+  }
+  
+  .search-ALGO-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:blue ;
+  }
+  
+  .search-ALGO-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: blue;
+  }
+  
+  .search_ALGO-content ul {
+    list-style: disc;
+    margin-bottom: 20px;
+  }
+  
+  .search-ALGO-content li {
+    margin-bottom: 10px;
+    
+  }
+  
+  .search-ALGO-content li ul {
+    margin-left: 20px;
+  }
+  
+  .approch, .algorithm, .steps,.time-complexity,.space-complexity,.usage,.advanatages,.disadvanatages,.example {
+    margin-bottom: 30px;
+  }
+  
+  .approch h3, .algorithm h3, .steps h3,.time-complexity h3,.space-complexity h3,.usage h3,.advanatages h3,.disadvanatages h3,.example h3{
+    margin-top: 0;
+  } 
+  #tosa{
+    border-bottom: 1px solid #ddd;
+    color: purple;
+    padding: 5px;
+    text-align: center;
+    
+} 
+.search-ALGO-img{
+    margin-left: 350px; /* adjust the margin to accommodate the sidemenu width */
+    padding-right: 160px;
+    text-align: left;
+    width: calc(100% - 120px); /* calculate the width based on the sidemenu width */
+    overflow-x: hidden;
+    justify-content: center;
+    display: block;
+    align-items: center;
+    overflow-x: hidden;
+    background-color: #f0caca;
+    width: 260px;
+    position: relative;
+    padding-bottom: 10px;
+    
+}
+.search-ALGO-img {
+  display: block;
+  margin: 0 auto;
+  width: 300px; /* adjust the width as needed */
+  height: auto;
+  padding-left: 50px;
+  padding-top: 10px;
+}

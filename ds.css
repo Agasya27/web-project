@@ -1,0 +1,111 @@
+h1{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    color:  blue;
+      
+}  
+.marquee{
+    animation: fadeIn 3s;
+}
+@keyframes fadeIn {
+    0%{
+       opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+} 
+
+body{
+    background-image: url(file:///C:/Users/ASUS/OneDrive/Pictures/Saved%20Pictures/data%20image.webp);
+    align-items: center;
+    background-size: cover;
+    
+    animation: fadeInb1 2s;
+    
+}
+@keyframes fadeInb1 {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  } 
+  .indexofallmethods{
+    text-align: center;
+  }
+  .indexofallmethodh3{
+   background-color: blue; 
+   
+  } 
+ #h3btn{
+    background-color: #f0caca;
+  color: #060606;
+  border: none;
+  padding: 5px 5px;
+  font-size: 30px; /* Increased font size to 20px */
+  cursor: pointer;
+  width: 70%;
+  font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+ } 
+ .indexofallmethods1{
+    text-align: center;}
+ #h31btn{
+    background-color: #f0caca;
+    color: #060606;
+    border: none;
+    padding: 5px 5px;
+    font-size: 30px; /* Increased font size to 20px */
+    cursor: pointer;
+    width: 70%;
+    font-family: 'Orbitron', sans-serif;
+      font-weight: bold;
+      margin-bottom: 20px;
+ }
+ /* 
+ .indexofallmethods2{
+    text-align: center;}
+ #h32btn{
+    background-color: #f0caca;
+    color: #060606;
+    border: none;
+    padding: 5px 5px;
+    font-size: 30px; 
+    cursor: pointer;
+    width: 70%;
+    font-family: 'Orbitron', sans-serif;
+      font-weight: bold;
+      margin-bottom: 20px;
+ } 
+ */
+ .indexofallmethods3{
+    text-align: center;}
+ #h323btn{
+    background-color: #f0caca;
+    color: #060606;
+    border: none;
+    padding: 5px 5px;
+    font-size: 30px; /* Increased font size to 20px */
+    cursor: pointer;
+    width: 70%;
+    font-family: 'Orbitron', sans-serif;
+      font-weight: bold;
+      margin-bottom: 20px;
+ } 
+ .indexofallmethods4{
+    text-align: center;}
+ #h324btn{
+    background-color: #f0caca;
+    color: #060606;
+    border: none;
+    padding: 5px 5px;
+    font-size: 30px; /* Increased font size to 20px */
+    cursor: pointer;
+    width: 70%;
+    font-family: 'Orbitron', sans-serif;
+      font-weight: bold;
+ }  

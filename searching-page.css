@@ -1,0 +1,128 @@
+h1{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    color:  blue;
+}
+body{
+    font-family: 'Orbitron',sans-serif;
+    background-image: url(file:///C:/Users/ASUS/OneDrive/Pictures/Saved%20Pictures/data%20image.webp);
+    animation: fade-in 1s;
+}
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+ul.sidemenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 100vh;
+    background-color: #fbf8f8;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    padding-top: 0;
+    margin-top: 0;
+} 
+ul.sidemenu li {
+    margin-bottom: 20px;
+    list-style-type: none;
+} 
+ul.sidemenu a {
+    text-decoration: none;
+    color: #337ab7;
+}
+ul.sidemenu a:hover {
+    color: #23527c;
+} 
+#tosa{
+    border-bottom: 1px solid #ddd;
+    color: purple;
+    padding: 5px;
+    text-align: center;
+    
+} 
+
+.search-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 10px;
+    background-color: #f0caca;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-left: 180px;
+  }
+  
+  .search-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:blue ;
+  }
+  
+  .search-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: blue;
+  }
+  
+  .search-content ul {
+    list-style: disc;
+    margin-bottom: 20px;
+  }
+  
+  .search-content li {
+    margin-bottom: 10px;
+    
+  }
+  
+  .search-content li ul {
+    margin-left: 20px;
+  }
+  
+  .everyday-life, .computer-science, .search-algorithms {
+    margin-bottom: 30px;
+  }
+  
+  .everyday-life h3, .computer-science h3, .search-algorithms h3 {
+    margin-top: 0;
+  }
+.search-ALGO-img{
+    margin-left: 350px; /* adjust the margin to accommodate the sidemenu width */
+    padding-right: 160px;
+    text-align: left;
+    width: calc(100% - 120px); /* calculate the width based on the sidemenu width */
+    overflow-x: hidden;
+    justify-content: center;
+    display: block;
+    align-items: center;
+    overflow-x: hidden;
+    background-color: #f0caca;
+    width: 260px;
+    position: relative;
+    padding-bottom: 10px;
+    
+}
+.search-ALGO-img img:nth-child(2) {
+  display: block;
+  margin: 0 auto;
+  width: 300px; /* adjust the width as needed */
+  height: auto;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+#denotation{
+    display: block;
+  margin: 10 auto;
+  padding-right: 80px;
+  text-align: center;
+  transform:translate(50%,50%) ;
+  color: blue;
+    
+} 
+
